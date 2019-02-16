@@ -18,7 +18,7 @@ const pie = d3.pie()
 
 const arcPath = d3.arc()
 .outerRadius(dims.radius)
-.innerRadius(dims.radius/2);
+.innerRadius(dims.radius/4);
 
 
 const color = d3.scaleOrdinal(d3['schemeSet2']);
